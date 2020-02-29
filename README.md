@@ -1,5 +1,7 @@
 # Transductive Few-shot Learning with Meta-Learned Confidence
-Pytorch code for *Transductive Few-shot Learning with Meta-Learned Confidence.*[pdf](https://arxiv.org/abs/2002.12017)
+Pytorch code for 
+**Transductive Few-shot Learning with Meta-Learned Confidence.**[pdf](https://arxiv.org/abs/2002.12017)
+Seong Min Kye, Hae Beom Lee, Hoirin Kim, Sung Ju Hwang
 
 ## Requirements
 * Python 3.6
@@ -12,8 +14,7 @@ Pytorch code for *Transductive Few-shot Learning with Meta-Learned Confidence.*[
 * [**CIFAR-FS**](https://drive.google.com/file/d/1GjGMI0q3bgcpcB_CjI40fX54WgLPuTpS/view?usp=sharing)
 
 For example, in /mini_ImageNet/scripts/train.py line 72:
-    ```python
-    data_path = 'data/path/miniImageNet'
+    ```python    data_path = 'data/path/miniImageNet'
     ```
 
 
