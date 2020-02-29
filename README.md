@@ -5,7 +5,7 @@ Pytorch code for *Transductive Few-shot Learning with Meta-Learned Confidence.*[
 * Python 3.6
 * Pytorch 1.3.1
 
-## Data Download (miniImagenet, tieredImagenet, CIFAR-FS and FC100)
+## Data Download
 * [**miniImageNet**](https://drive.google.com/file/d/1fJAK5WZTjerW7EWHHQAR9pRJVNg1T1Y7/view?usp=sharing) 
 * [**tieredImageNet**](https://drive.google.com/open?id=1nVGCTd9ttULRXFezh4xILQ9lUkg0WZCG)
 * [**FC100**](https://drive.google.com/file/d/1_ZsLyqI487NRDQhwvI7rg86FK3YAZvz1/view?usp=sharing)
