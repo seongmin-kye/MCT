@@ -3,4 +3,4 @@ Pytorch code for *Transductive Few-shot Learning with Meta-Learned Confidence.*[
 
 ## Requirements
 * Python 3.6
-* Pytorch 1.3.1
+*Pytorch 1.3.1
