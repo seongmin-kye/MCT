@@ -14,7 +14,12 @@ Seong Min Kye, Hae Beom Lee, Hoirin Kim, Sung Ju Hwang
 * [**CIFAR-FS**](https://drive.google.com/file/d/1GjGMI0q3bgcpcB_CjI40fX54WgLPuTpS/view?usp=sharing)
 
 For example, in /mini_ImageNet/scripts/train.py line 72:
-    ```python    data_path = 'data/path/miniImageNet'
+    ```python
+    data_path = 'data/path/miniImageNet'
+    ```
+    
+    ```python
+    _MINI_IMAGENET_DATASET_DIR = 'path/to/miniImageNet'
     ```
 
 
