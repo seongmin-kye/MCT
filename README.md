@@ -10,3 +10,10 @@ Pytorch code for *Transductive Few-shot Learning with Meta-Learned Confidence.*[
 * [**tieredImageNet**](https://drive.google.com/open?id=1nVGCTd9ttULRXFezh4xILQ9lUkg0WZCG)
 * [**FC100**](https://drive.google.com/file/d/1_ZsLyqI487NRDQhwvI7rg86FK3YAZvz1/view?usp=sharing)
 * [**CIFAR-FS**](https://drive.google.com/file/d/1GjGMI0q3bgcpcB_CjI40fX54WgLPuTpS/view?usp=sharing)
+
+For example, in /mini_ImageNet/scripts/train.py line 72:
+    ```python
+    data_path = 'data/path/miniImageNet'
+    ```
+
+
