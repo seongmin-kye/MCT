@@ -58,7 +58,7 @@ $ python train.py --is_train False --gpu 0 Transductive True --flip True --drop 
 
 ## Acknowledgments
 
-This code is based on the implementation of [**TapNet**](https://github.com/istarjun/TapNet), [**MetaOptNet**](https://github.com/kjunelee/MetaOptNet). And we use the dataset from [**MetaOptNet**](https://github.com/kjunelee/MetaOptNet)
+This code is based on the implementation of [**TapNet**](https://github.com/istarjun/TapNet), [**MetaOptNet**](https://github.com/kjunelee/MetaOptNet). And we use the dataset from [**MetaOptNet**](https://github.com/kjunelee/MetaOptNet).
 
 
 
