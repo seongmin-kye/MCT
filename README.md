@@ -19,6 +19,7 @@ Seong Min Kye, Hae Beom Lee, Hoirin Kim, Sung Ju Hwang
 # miniImageNet, 5-way 1-shot
 $ python train.py --is_train True --gpu 0 Transductive False --flip False --drop False --n_shot 1 --n_train_class 15
 $ python train.py --is_train False --gpu 0 Transductive False --flip False --drop False --n_shot 1 --n_train_class 15
+
 # miniImageNet, 5-way 5-shot
 $ python train.py --is_train True --gpu 0 Transductive False --flip False --drop False --n_shot 5 --n_train_class 15
 $ python train.py --is_train False --gpu 0 Transductive False --flip False --drop False --n_shot 5 --n_train_class 15
@@ -28,6 +29,7 @@ $ python train.py --is_train False --gpu 0 Transductive False --flip False --dro
 # tieredImageNet, 5-way 1-shot
 $ python train.py --is_train True --gpu 0 Transductive False --flip False --drop False --n_shot 1 --n_train_class 15
 $ python train.py --is_train False --gpu 0 Transductive False --flip False --drop False --n_shot 1 --n_train_class 15
+
 # tieredImageNet, 5-way 5-shot
 $ python train.py --is_train True --gpu 0 Transductive False --flip False --drop False --n_shot 5 --n_train_class 15
 $ python train.py --is_train False --gpu 0 Transductive False --flip False --drop False --n_shot 5 --n_train_class 15
@@ -38,6 +40,7 @@ $ python train.py --is_train False --gpu 0 Transductive False --flip False --dro
 # miniImageNet, 5-way 1-shot
 $ python train.py --is_train True --gpu 0 Transductive True --flip True --drop True --n_shot 1 --n_train_class 15
 $ python train.py --is_train False --gpu 0 Transductive True --flip True --drop True --n_shot 1 --n_train_class 15
+
 # miniImageNet, 5-way 5-shot
 $ python train.py --is_train True --gpu 0 Transductive True --flip True --drop True --n_shot 5 --n_train_class 15
 $ python train.py --is_train False --gpu 0 Transductive True --flip True --drop True --n_shot 5 --n_train_class 15
@@ -47,6 +50,7 @@ $ python train.py --is_train False --gpu 0 Transductive True --flip True --drop 
 # tieredImageNet, 5-way 1-shot
 $ python train.py --is_train True --gpu 0 Transductive True --flip True --drop True --n_shot 1 --n_train_class 15
 $ python train.py --is_train False --gpu 0 Transductive True --flip True --drop True --n_shot 1 --n_train_class 15
+
 # tieredImageNet, 5-way 5-shot
 $ python train.py --is_train True --gpu 0 Transductive True --flip True --drop True --n_shot 5 --n_train_class 15
 $ python train.py --is_train False --gpu 0 Transductive True --flip True --drop True --n_shot 5 --n_train_class 15
