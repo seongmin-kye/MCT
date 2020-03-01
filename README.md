@@ -1,6 +1,5 @@
 # Transductive Few-shot Learning with Meta-Learned Confidence
-Pytorch code for 
-**Transductive Few-shot Learning with Meta-Learned Confidence.**[pdf](https://arxiv.org/abs/2002.12017)
+Pytorch code for **Transductive Few-shot Learning with Meta-Learned Confidence.**[pdf](https://arxiv.org/abs/2002.12017)
 Seong Min Kye, Hae Beom Lee, Hoirin Kim, Sung Ju Hwang
 
 ## Requirements
