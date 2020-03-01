@@ -1,5 +1,5 @@
 # Transductive Few-shot Learning with Meta-Learned Confidence
-Pytorch code for following paper,
+Pytorch code for following paper:
 * **Title** : [**Transductive Few-shot Learning with Meta-Learned Confidence.**](https://arxiv.org/abs/2002.12017)
 * **Author** : Seong Min Kye, [Hae Beom Lee](https://github.com/haebeom-lee), Hoirin Kim, Sung Ju Hwang
 
