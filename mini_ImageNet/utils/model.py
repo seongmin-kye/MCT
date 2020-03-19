@@ -33,7 +33,7 @@ class Runner(object):
         elif backbone == 'ConvNet-256':
             self.model = ConvNet_256(with_drop=drop)
 
-        # self.model.cuda()
+        self.model.cuda()
         self.loss = nn.CrossEntropyLoss()
 
     def set_optimizer(self, learning_rate, weight_decay_rate):
