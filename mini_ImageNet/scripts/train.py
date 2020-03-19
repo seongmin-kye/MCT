@@ -10,9 +10,17 @@ from utils.generator.generators_test import miniImageNetGenerator as test_loader
 
 from utils.model import Runner
 
+def str2bool(v):
+    if isinstance(v, bool):
+       return v
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--is_train', type=bool, default=True,
+    parser.add_argument('--is_train', type=str2bool, default=True,
                         help='Choice train or test.')
     parser.add_argument('--n_folder', type=int, default=0,
                         help='Number of folder.')
@@ -27,11 +35,11 @@ if __name__ == '__main__':
     parser.add_argument('--second_decay', type=int, default=35000,
                         help='Second decay step.')
 
-    parser.add_argument('--transductive', type=bool, default=True,
+    parser.add_argument('--transductive', type=str2bool, default=True,
                         help='Whether to use transductive training or not.')
-    parser.add_argument('--flip', type=bool, default=True,
+    parser.add_argument('--flip', type=str2bool, default=True,
                         help='Whether to inject data uncertainty.')
-    parser.add_argument('--drop', type=bool, default=True,
+    parser.add_argument('--drop', type=str2bool, default=True,
                         help='Whether to inject model uncertainty.')
 
     parser.add_argument('--n_shot', type=int, default=5,
