@@ -1,4 +1,4 @@
-**This repository will be updated v2** (previous version is "Transductive Few-shot Learning with Meta-learned Confidence")
+**This repository will be updated to v2** (previous version is "Transductive Few-shot Learning with Meta-learned Confidence")
 
 # Meta-Learned Confidence for Few-shot Learining v2
 Pytorch code for following paper:
