@@ -1,6 +1,4 @@
-**This repository will be updated to v2** (previous version is "Transductive Few-shot Learning with Meta-learned Confidence")
-
-# Meta-Learned Confidence for Few-shot Learining v2
+# Meta-Learned Confidence for Few-shot Learining
 Pytorch code for following paper:
 * **Title** : Meta-Learned Confidence for Few-shot Learning.
 * **Author** : Seong Min Kye, [Hae Beom Lee](https://github.com/haebeom-lee), Hoirin Kim, Sung Ju Hwang
@@ -19,47 +17,43 @@ Transductive inference is an effective means of tackling the data deficiency pro
 * [**FC100**](https://drive.google.com/file/d/1_ZsLyqI487NRDQhwvI7rg86FK3YAZvz1/view?usp=sharing)
 * [**CIFAR-FS**](https://drive.google.com/file/d/1GjGMI0q3bgcpcB_CjI40fX54WgLPuTpS/view?usp=sharing)
 
-## Training/Testing with inductive manner
-1. miniImageNet 5-way 1-shot/5-shot
+## Training / Testing with inductive manner
+1. 5-way 1-shot / 5-shot
 ```
-# miniImageNet, 5-way 1-shot
-$ python train.py --is_train True --gpu 0 --transductive False --flip False --drop False --n_shot 1 --n_train_class 15
-$ python train.py --is_train False --gpu 0 --transductive False --flip False --drop False --n_shot 1 --n_train_class 15
+# 5-way 1-shot MCI(Instance)
+$ python train.py --is_train True --gpu 0 --metric instance --transductive False --flip False --drop False --n_shot 1 --n_train_class 15
+$ python train.py --is_train False --gpu 0 --metric instance --transductive False --flip False --drop False --n_shot 1 --n_train_class 15
 
-# miniImageNet, 5-way 5-shot
-$ python train.py --is_train True --gpu 0 --transductive False --flip False --drop False --n_shot 5 --n_train_class 15
-$ python train.py --is_train False --gpu 0 --transductive False --flip False --drop False --n_shot 5 --n_train_class 15
-```
-2 tieredImageNet 5-way 1-shot/5-shot
-```
-# tieredImageNet, 5-way 1-shot
-$ python train.py --is_train True --gpu 0 --transductive False --flip False --drop False --n_shot 1 --n_train_class 15
-$ python train.py --is_train False --gpu 0 --transductive False --flip False --drop False --n_shot 1 --n_train_class 15
+# 5-way 5-shot MCI(Instance)
+$ python train.py --is_train True --gpu 0 --metric instance --transductive False --flip False --drop False --n_shot 5 --n_train_class 15
+$ python train.py --is_train False --gpu 0 --metric instance --transductive False --flip False --drop False --n_shot 5 --n_train_class 15
 
-# tieredImageNet, 5-way 5-shot
-$ python train.py --is_train True --gpu 0 --transductive False --flip False --drop False --n_shot 5 --n_train_class 15
-$ python train.py --is_train False --gpu 0 --transductive False --flip False --drop False --n_shot 5 --n_train_class 15
-```
-## Training/Testing with transductive manner
-1. miniImageNet 5-way 1-shot/5-shot
-```
-# miniImageNet, 5-way 1-shot
-$ python train.py --is_train True --gpu 0 --transductive True --flip True --drop True --n_shot 1 --n_train_class 15
-$ python train.py --is_train False --gpu 0 --transductive True --flip True --drop True --n_shot 1 --n_train_class 15
+# 5-way 5-shot MCI(Pair)
+$ python train.py --is_train True --gpu 0 --metric pair --transductive False --flip False --drop False --n_shot 1 --n_train_class 15
+$ python train.py --is_train False --gpu 0 --metric pair --transductive False --flip False --drop False --n_shot 1 --n_train_class 15
 
-# miniImageNet, 5-way 5-shot
-$ python train.py --is_train True --gpu 0 --transductive True --flip True --drop True --n_shot 5 --n_train_class 15
-$ python train.py --is_train False --gpu 0 --transductive True --flip True --drop True --n_shot 5 --n_train_class 15
+# 5-way 5-shot MCI(Pair)
+$ python train.py --is_train True --gpu 0 --metric pair --transductive False --flip False --drop False --n_shot 5 --n_train_class 15
+$ python train.py --is_train False --gpu 0 --metric pair --transductive False --flip False --drop False --n_shot 5 --n_train_class 15
 ```
-2. tieredImageNet 5-way 1-shot/5-shot
+## Training / Testing with transductive manner
+1. 5-way 1-shot / 5-shot
 ```
-# tieredImageNet, 5-way 1-shot
-$ python train.py --is_train True --gpu 0 --transductive True --flip True --drop True --n_shot 1 --n_train_class 15
-$ python train.py --is_train False --gpu 0 --transductive True --flip True --drop True --n_shot 1 --n_train_class 15
+# 5-way 1-shot MCI(Instance)
+$ python train.py --is_train True --gpu 0 --metric instance --transductive True --flip True --drop True --n_shot 1 --n_train_class 15
+$ python train.py --is_train False --gpu 0 --metric instance --transductive True --flip True --drop True --n_shot 1 --n_train_class 15
 
-# tieredImageNet, 5-way 5-shot
-$ python train.py --is_train True --gpu 0 --transductive True --flip True --drop True --n_shot 5 --n_train_class 15
-$ python train.py --is_train False --gpu 0 --transductive True --flip True --drop True --n_shot 5 --n_train_class 15
+# 5-way 5-shot MCI(Instance)
+$ python train.py --is_train True --gpu 0 --metric instance --transductive True --flip True --drop True --n_shot 5 --n_train_class 15
+$ python train.py --is_train False --gpu 0 --metric instance --transductive True --flip True --drop True --n_shot 5 --n_train_class 15
+
+# 5-way 5-shot MCI(Pair)
+$ python train.py --is_train True --gpu 0 --metric pair --transductive True --flip True --drop True --n_shot 1 --n_train_class 15
+$ python train.py --is_train False --gpu 0 --metric pair --transductive True --flip True --drop True --n_shot 1 --n_train_class 15
+
+# 5-way 5-shot MCI(Pair)
+$ python train.py --is_train True --gpu 0 --metric pair --transductive True --flip True --drop True --n_shot 5 --n_train_class 15
+$ python train.py --is_train False --gpu 0 --metric pair --transductive True --flip True --drop True --n_shot 5 --n_train_class 15
 ```
 
 ## Acknowledgments
