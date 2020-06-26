@@ -1,6 +1,6 @@
 # Meta-Learned Confidence for Few-shot Learining
 Pytorch code for following paper:
-* **Title** : Meta-Learned Confidence for Few-shot Learning.[pdf](https://arxiv.org/abs/2002.12017)
+* **Title** : Meta-Learned Confidence for Few-shot Learning.[[pdf](https://arxiv.org/abs/2002.12017)]
 * **Author** : Seong Min Kye, [Hae Beom Lee](https://github.com/haebeom-lee), Hoirin Kim, Sung Ju Hwang
 
 ## Abstract
