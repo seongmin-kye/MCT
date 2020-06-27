@@ -1,6 +1,6 @@
 # Meta-Learned Confidence for Few-shot Learining
 Pytorch code for following paper:
-* **Title** : Meta-Learned Confidence for Few-shot Learning.[[pdf](https://arxiv.org/abs/2002.12017)]
+* **Title** : Meta-Learned Confidence for Few-shot Learning.[[pdf](https://arxiv.org/abs/2002.12017)]\\
 (previous version MCT_DFMN can be found in [here](https://github.com/seongmin-kye/MCT_DFMN))
 * **Author** : Seong Min Kye, [Hae Beom Lee](https://github.com/haebeom-lee), Hoirin Kim, Sung Ju Hwang
 
